@@ -31,5 +31,7 @@ if __name__ == "__main__":
     if(sys.argv[1] == '-s'): google_search()
     elif(sys.argv[1] == '-i'): google_image()
 
-    time.sleep(1000)
+    time.sleep(120)
     browser.quit()
+
+    
